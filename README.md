@@ -1,4 +1,4 @@
-# Clone the assesment files using the github link "https://github.com/sabarishb/Assesment.git"
+# Clone the assesment files using the github link "https://github.com/sabarishb/assessment.git"
 # Open the terminal/git bash in the file location.
 # Type as "npm run dev"
 # It will start the application.
