@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta charset="utf-8">
+	    <title>app</title>
+
+		<style>
+		  /*Style section starts*/
+
+			nav:hover{
+				background-color: #cb1fe0;
+			}
+
+			/*style for navigation pane starts*/
+				nav {
+					margin-right: 500px;
+				    background-color: #5597b4;
+				    border-radius: 2px;
+				    padding: 1px 2px;
+				    font-weight: bold;
+				    font-size: 20px;
+				    text-align: left;
+				    border-bottom-style: inset;
+				    display: list-item;
+				}
+			/*style for navigation pane ends*/
+
+			/*style for header pane starts*/
+
+				h1, h2, h3{
+					margin-right: 500px;
+				    color: white;
+				    font-size: 22px;
+				}
+			/*style for header pane ends*/
+
+			/*style for pragraph pane starts*/
+
+				p{
+					margin-right: 500px;
+				    font-size: 20px;
+				}
+			/*style for paragraph pane ends*/
+
+		  /*Style Section ends*/
+		</style>
+	</head>
+
+	<body>
+
+	  <!--Section 1 starts-->
+		<div id="section1">
+		  	<nav v-on:click="show = !show">
+	 	  		<h1>Section 1 </h1>
+		  	</nav>
+		    	<p v-if="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed aliquam vitae fugit odit voluptate eligendi, blanditiis quasi nobis reiciendis! Rem maiores reprehenderit animi aliquam inventore vel adipisci delectus itaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed aliquam vitae fugit odit voluptate eligendi, blanditiis quasi nobis reiciendis!</p>
+		</div>
+	  <!--Section 1 ends-->
+
+	  <!--Section 2 starts-->
+		<div id="section2">
+		  	<nav v-on:click="show= !show">
+	 	  		<h2>Section 2</h2>
+		  	</nav>
+		    	<p v-if="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed aliquam vitae fugit odit voluptate eligendi, blanditiis quasi nobis reiciendis! Rem maiores reprehenderit animi aliquam inventore vel adipisci delectus itaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed aliquam vitae fugit odit voluptate eligendi, blanditiis quasi nobis reiciendis! Rem maiores reprehenderit animi aliquam inventore vel adipisci delectus itaque!</p>
+		</div>
+	  <!--Section 2 endss-->
+
+	  <!--Section 3 starts-->
+		<div id="section3">
+		  	<nav v-on:click="show = !show">
+	 	  		<h3>Section 3</h3>
+		  	</nav>
+		    	<p v-if="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+	  <!--Section 3 ends-->
+
+	</body>
+</html>
